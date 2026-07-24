@@ -1,3 +1,27 @@
+# v0.20 - 2026-07-24
+
+This release implements automatic focus-based visibility toggling, thanks to Christian Duerr. Start wvkbd with the `--auto` parameter to opt-in for this feature (it is not the default yet).
+It also implements the ability to define different text colours for pressed and swiped keys (thanks to Pachulke and to Christoph Butz for fixes). Yo
+
+There are also new flags that are using for users of wvkbd in privacy sensitive use cases (e.g. for as a lock screens): `--no-popup`, `--no-highlight`, `--supress-feedback`.
+
+[Christoph Butz]
+* Added flags to suppress key-press feedback
+* Fixed issue on deskintl layout with text_press and text_swipe scheme colors
+
+[Christian Duerr]
+* Fix CLI option alignment
+* Add automatic focus-based visibility toggling (pass the `--auto` parameter)
+
+[Justin Lovinger]
+* Fix keys with multi-character labels causing issues when swiping
+
+[Pachulke]
+* Add arguments to define different text color for pressed and swiped keys
+
+[Maarten van Gompel]
+* Documentation updates and added a changelog
+
 # v0.19.4 - 2026-02-06
 
 This fixes a regression introduced in v0.19 where composed keys (diacritics etc) no longer produced uppercase letters when Shift was pressed ([#115](https://github.com/jjsullivan5196/wvkbd/issues/115))
