@@ -1,7 +1,7 @@
 # v0.20 - 2026-07-24
 
 This release implements automatic focus-based visibility toggling, thanks to Christian Duerr. Start wvkbd with the `--auto` parameter to opt-in for this feature (it is not the default yet).
-It also implements the ability to define different text colours for pressed and swiped keys (thanks to Pachulke and to Christoph Butz for fixes). Yo
+It also implements the ability to define different text colours for pressed and swiped keys (thanks to Pachulke and to Christoph Butz for fixes).
 
 There are also new flags that are using for users of wvkbd in privacy sensitive use cases (e.g. for as a lock screens): `--no-popup`, `--no-highlight`, `--supress-feedback`.
 
